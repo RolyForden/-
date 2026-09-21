@@ -2,6 +2,10 @@
 
 > **给执行 agent：**按本文顺序逐项执行。允许修改实验代码和配置，但不得跳过数据划分保护、对照组或失败结果。执行者不得向本仓库 commit/push；最终只回传本文第 14 节规定的交付包，由主工作区审查后提交。
 
+项目状态入口：[`../README.md`](../README.md)
+
+方案来源：[`../idea/FocalAfford_final-idea-report.pdf`](../idea/FocalAfford_final-idea-report.pdf)
+
 **目标：**用最小但有判别力的实验，回答“几何锚定局部观察、整物体任务语境、优势加权局部修正蒸馏是否分别提供增量”，并生成一份可审查的可行性结论文档。
 
 **总体策略：**先在 LASO 的训练集和验证集完成教师级 A0-A4 对照；只有 Gate A 出现正信号，才进行最小学生级 B0-B4 对照。整个阶段不查看或用于决策 LASO test，不运行 PIAD、鲁棒性集、GLANCE、CMAT 或 AnyUp。
