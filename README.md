@@ -32,10 +32,12 @@ PowerShell -ExecutionPolicy Bypass -File .\scripts\new_topic.ps1 `
 
 ## 目录
 
-- `AGENTS.md`：不可妥协的研究与协作规则；
-- `docs/`：科研方法、Agent 协作和论文实操经验；
+- `AGENTS.md`：不可妥协的研究、协作与文件归属规则；
+- `projects/`：实际研究项目。每个项目的 `README.md` 是唯一状态入口；idea、实验、论文和归档均留在项目内部；
+- `docs/`：仅保存可跨项目复用的科研方法、Agent 协作和论文实操经验；
 - `templates/`：项目、证据、决策和实验记录模板；
-- `scripts/`：新建项目与项目完整性校验脚本；
-- `projects/`：开始具体题目后再生成。
+- `scripts/`：新建项目与项目完整性校验脚本。
+
+判断文件位置时先问：它是否只服务于一个课题？如果是，就放入对应的 `projects/<日期>-<课题名>/`，不要放在根目录或 `docs/`。
 
 旧题目和旧实验留在各自仓库或归档目录，本仓库不保存平行副本。
