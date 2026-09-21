@@ -1,35 +1,14 @@
-# Private and large assets
-data/
-checkpoints/
 source_private/
-outputs/
-*.pt
-*.pth
-*.ckpt
-*.onnx
-
-# Environments and caches
-.env
-.venv/
-venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-
-# Editors and operating systems
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Temporary files
+**/data/raw/
+**/secrets/
+**/.env
+**/*.key
+**/checkpoints/
+**/runs/
+**/wandb/
+**/__pycache__/
+**/.pytest_cache/
 tmp/
-temp/
-*.log
 *.zip
 *.tar
 *.tar.gz
-*.tar.zst
-
